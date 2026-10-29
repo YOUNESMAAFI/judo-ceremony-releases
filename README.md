@@ -10,18 +10,18 @@
 </p>
 
 <p align="center">
-  <img alt="Version 0.9.0 Preview" src="https://img.shields.io/badge/version-0.9.0_Preview-C9A65A">
+  <img alt="Version 0.11.0 Preview" src="https://img.shields.io/badge/version-0.11.0_Preview-C9A65A">
   <img alt="Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-132047">
   <img alt="Offline" src="https://img.shields.io/badge/operation-offline-147D73">
-  <img alt="216 software checks passed" src="https://img.shields.io/badge/software_checks-216_passed-147D73">
+  <img alt="356 software checks passed" src="https://img.shields.io/badge/software_checks-356_passed-147D73">
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/JudoCeremony-0.9-win-x64.zip"><strong>Download for Windows</strong></a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/JudoCeremony-0.11-win-x64.zip"><strong>Download for Windows</strong></a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.9.0">Release notes &amp; downloads</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.11.0">Release notes &amp; downloads</a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
 </p>
 
 ---
@@ -40,34 +40,35 @@ Judo Ceremony Desk gives the operator a preparation workspace and a separate cer
 | Event history | Save previous events locally and reopen their categories. |
 | Exceptional medals | Present two silvers with no gold, missing medals and other approved layouts. |
 | Event branding | Add backgrounds, three logos and a hashtag footer. |
+| Anthem playback | Play local instrumental recordings independently or link them to flag controls. |
 | Offline use | Use bundled flag artwork and the included Windows runtime without an internet connection. |
 
-**Version 0.9.0 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Anthem audio playback is not included.
+**Version 0.11.0 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Offline anthem playback is included, with separate controls and optional linking to flags.
 
 ## Contents
 
-[Download](#download) · [Quick start](#quick-start) · [Workspaces](#workspaces) · [Separate visibility controls](#separate-visibility-controls) · [Countries and categories](#countries-and-categories) · [Medal layouts](#medal-layouts) · [HDMI display](#hdmi-display) · [Shortcuts](#shortcuts) · [Branding](#branding) · [Event history and files](#event-history-and-files) · [Flag audit](#flag-audit) · [Troubleshooting](#troubleshooting) · [Support and notices](#support-and-notices)
+[Download](#download) · [Quick start](#quick-start) · [Workspaces](#workspaces) · [Separate visibility controls](#separate-visibility-controls) · [Country filters](#country-filters-and-participation) · [Countries and categories](#countries-and-categories) · [Medal layouts](#medal-layouts) · [HDMI display](#hdmi-display) · [Anthem playback](#anthem-playback) · [Shortcuts](#shortcuts) · [Branding](#branding) · [Event history and files](#event-history-and-files) · [Flag audit](#flag-audit) · [Troubleshooting](#troubleshooting) · [Support and notices](#support-and-notices)
 
 ## Download
 
-Download the files from the [v0.9.0 release page](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.9.0).
+Download the Windows ZIP below, extract the entire folder, and open `JudoCeremony.exe`. The application includes its runtime, flags, bundled recordings and illustrated guide.
 
 | File | Use |
 | --- | --- |
-| [JudoCeremony-0.9-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/JudoCeremony-0.9-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
-| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
-| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
-| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
-| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/README.md) | A downloadable copy of this guide. |
-| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/RELEASE-0.9-checks.txt) | Confirmation of the 216 passing software checks. |
-| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.9.0/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
+| [JudoCeremony-0.11-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/JudoCeremony-0.11-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
+| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
+| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
+| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
+| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/README.md) | A downloadable copy of this guide. |
+| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/RELEASE-0.11-checks.txt) | Confirmation of the 356 passing software checks. |
+| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.11.0/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
 
 **Platform:** Windows x64. Windows 11 x64 is the development and test platform. The application ZIP includes the .NET runtime; a separate .NET installation is not required for normal use.
 
 To check a downloaded file in PowerShell, run the command below and compare its hash with the matching entry in `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.9-win-x64.zip
+Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.11-win-x64.zip
 ```
 
 ## Quick start
@@ -107,6 +108,63 @@ Previous events and their saved category countries appear here. Select an event 
 ![Event history with a previous event and its saved medal countries](images/event-history.png)
 
 Opening an event leaves the preparation empty until you select a category. The loaded audience ceremony continues to use its existing snapshot.
+
+### 4 · Anthem testing
+
+Browse countries, search by three-letter code or country name, and filter available, missing or failed recordings. Select a country to see its flag and load a track without autoplay. The test player has its own playback, seek and volume controls.
+
+![National anthem testing panel](images/anthem-testing.png)
+
+Testing leaves the loaded ceremony unchanged. Test audio stops when leaving this tab or starting ceremony playback, and cannot overlap an active or paused ceremony. Use Refresh after importing or replacing a recording.
+
+## Country filters and participation
+
+![Country filter menu](images/country-filter-menu.png)
+
+## Worldwide and continental unions
+
+Choose **Worldwide**, **AJU · Africa**, **JUA · Asia**, **EJU · Europe**, **OJU · Oceania**, **PJC · Panamerica**, or **OTH · Other / unlisted**. Worldwide includes all 255 catalog entries. Union membership comes from an offline snapshot of the official IJF federation pages checked on 28 October 2026. Other / unlisted contains catalog entries not assigned by those five member lists; it is not a claim that they are IJF members.
+
+| Scope | Catalog entries |
+| --- | ---: |
+| Worldwide | 255 |
+| AJU | 54 |
+| JUA | 43 |
+| EJU | 51 |
+| OJU | 20 |
+| PJC | 37 |
+| Other / unlisted | 50 |
+
+This uses judo membership rather than geographic guesses. Israel and Türkiye are included in EJU; Kazakhstan is included in JUA. IJF aliases SGP, NFI and MNP map to the app's existing SIN, NFK and NMI catalog identities. The app continues to display its existing three-letter codes and flag artwork. Membership does not establish eligibility for a particular event.
+
+## Competition country list
+
+Select **Competition countries…** to edit a draft list. Search countries, filter the editor by region, check individual countries, or use **Add shown / Remove shown**. Changes reach the current event only with **Save changes**; Cancel keeps the existing list.
+
+You can also paste three-letter codes separated by spaces, commas, semicolons or line breaks, for example `TJK FRA GER JPN`, and choose **Replace list with codes**. **Load code list (.txt / .csv)…** accepts a plain code list; CSV files should contain country codes only, with an optional Code/NOC header. Names and other text are rejected rather than guessed. Duplicate codes are combined and supported ISO/IJF aliases are resolved.
+
+Enable **Only countries participating in this competition** in the Countries menu to restrict suggestions to that list. Region and participation filters combine: EJU plus a participant list shows the European-union members on that list. An empty enabled list shows zero choices instead of reverting to Worldwide. **Show all countries** removes both restrictions while preserving the saved participant list.
+
+Changing filters never clears entered medal countries, replaces the loaded podium, changes flag positions or switches the loaded anthem. The menu identifies existing prepared medal countries outside the new scope. Selecting a new category still restores that category's own results as before.
+
+## Import from IJF
+
+![Review imported IJF event information](images/ijf-event-preview.png)
+
+Paste an official `https://www.ijf.org/competition/…` link into the participant editor and select **Import from IJF**. Competition overview, results, athlete and nation links are accepted; country/category query filters are removed so the app requests the complete **Nations** list. The importer reads the complete Nations list and the event overview. The preview shows the event name, location, start/end dates and published men’s and women’s weight categories. Choose **Apply event name, location and dates** and/or **Use imported categories**, edit the name or category group if needed, then **Save changes**. Uncheck those options for a country-only import. The imported source URL and time are retained. You can also open this editor with **Import IJF event…** below the tournament name. Imported dates and location appear there as an event summary; they are stored with the event without adding them to ceremony headings.
+
+The editor previews the matched countries and any source codes absent from the flag catalog. Unmatched codes remain in the saved metadata for review and are never substituted with another flag. For example, the current Abu Dhabi fixture contains an IJF delegation code which has no catalog entry. Failed, incomplete, timed-out or cancelled nation downloads keep the editor’s previous list. If only the event overview fails, a warning explains that countries are available; applying event details defaults off so existing details are retained. The source page is read only; no login or account access is used.
+
+Importing requires internet access. Saved participation lists and continental filters work offline. Imports are snapshots, so reimport when the organiser's entry list changes. The app does not continuously synchronize a live event's entries.
+
+## Event history and compatibility
+
+Each event keeps its own region, participation restriction, selected countries, event details and import provenance. Importing details updates the current event; start **New event** first when importing a different tournament. The category presets can be replaced by the imported list while saved category results, the selected category, entered medals and the loaded audience ceremony remain intact. Categories missing from the overview are kept as they are. Review the suggested category group before saving; Senior is the default unless the title identifies Junior or Cadet. Categories within that event share the competition list. A new event starts Worldwide with no participants; reopening a historical event restores its own settings.
+
+Version 0.11 saves **schema 5** so older apps reject the new files instead of silently discarding participation settings. Schema 1–4 files still open, defaulting to Worldwide and no participant restriction. Audio, independent image/audience controls, categories and existing results are retained. Close older versions before launching this build.
+
+
+![Competition participant editor](images/competition-countries.png)
 
 ## Separate visibility controls
 
@@ -190,7 +248,7 @@ Use the result approved by event officials, including the applicable double hans
 ## HDMI display
 
 1. Connect the audience display and press **Win+P → Extend** in Windows.
-2. On Ceremony display, click **Refresh** and select the intended monitor. Use **Windowed preview (this PC)** for rehearsal without a second screen.
+2. On Ceremony display, click the **refresh arrow** and select the intended monitor. Use **Windowed preview** for rehearsal without a second screen.
 3. Set a raising duration between **3 and 300 seconds**. Type the value or use the up/down arrows. Load the preparation to use its new duration.
 4. Click **Load prepared →** to open the audience window and capture the prepared podium.
 5. Use the controls below during the ceremony.
@@ -208,6 +266,49 @@ Use the result approved by event officials, including the applicable double hans
 Reset an active or paused ceremony before loading a replacement. Restart uses the loaded podium and its duration; it does not load pending preparation edits.
 
 If the audience monitor disconnects, the application pauses and closes that output window. Reconnect the monitor, refresh the list, select it and reopen the display before resuming.
+
+## Anthem playback
+
+![Anthem controls](images/anthem-controls.png)
+
+**146 instrumental recordings are included.** The remaining 109 catalog entries support local recording imports.
+
+### Separate controls first
+
+Loading a ceremony selects its gold winner's three-letter country code and opens the local recording without playing it. A ceremony with no gold selects no anthem. Choose a country manually when needed. Changing preparation, selecting another category, opening history or switching tabs does not replace the loaded anthem.
+
+The anthem has its own **Play / Pause / Stop / Restart**, progress, duration and volume. **Play** resumes paused music; after it finishes, Play starts it again. **Stop** returns the music to its beginning. Music can run before the flags, after the flags, or with no audience window when controls are separate. Flags remain at their final height when music ends. Closing the application closes its audio decoder and stops music.
+
+**Test sound** plays a two-second tone through the Windows default audio output. Choose the venue speakers in Windows sound settings and test the connection before playing a recording. The tone is separate from the selected anthem and never raises flags. Changing the recording is disabled while an anthem is playing or paused; Stop first.
+
+### Optional linking
+
+**Link anthem and flag controls** starts unchecked each time the app opens. Checking it never starts playback. Choose the link setting before starting; it is locked while either output is active.
+
+When linked, the Play, Pause and Restart buttons in either panel operate both outputs. **Stop / Reset** stops the anthem and returns flags to their starting positions, with confirmation while a ceremony is active. Existing flag shortcuts also operate linked audio. Black screen pauses linked audio; restoring the picture does not resume it automatically. Closing or disconnecting the audience display pauses linked music. With separate controls, flag operations do not change the music.
+
+Both the loaded ceremony and a ready recording are required before linked playback can start. Missing, loading or failed audio cannot silently start the flags. A decoder failure pauses a linked flag rise. If the flags finish first, the music continues and can still be paused and resumed with the linked controls. If music finishes first, the flags finish their configured rise. Restart begins both again.
+
+### Recordings and imports
+
+The bundled library contains selected instrumental U.S. Navy Band performances documented by their original Wikimedia Commons file pages. Recordings come from Commons originals/derivatives, source-matched public-domain mirrors and an archived original Navy source for USA. `Assets/Anthems/catalog.json` records each recording's country code, original page, performer, license metadata, acquisition source and SHA-256. The mapping is explicit; historical and questionable entries are not assigned merely by guessing a filename. These are reference recordings, not a claim of IJF approval or of the version required by a particular event. Rehearse the recording selected for each winning country.
+
+**Import file…** copies a preferred recording for the selected country into `%LOCALAPPDATA%\JudoCeremony\anthems`, using a filename such as `TJK - Tajikistan.mp3`. Local imports override bundled recordings. **Use bundled** removes that country's imported override and returns to the supplied track, where available. Your source file is not changed.
+
+**Import folder…** reads MP3/WAV files directly in a chosen folder whose names begin with a known three-letter code, such as `FRA.mp3`, `TJK - Tajikistan.wav` or `GER_Anthem.mp3`. It rejects duplicate recordings for one code before importing. Unrecognised filenames are skipped and counted. Imported files must have a matching audio header and be at most 100 MB; Windows checks decoding when opening a track. Files that cannot play are shown as failed, with replacement available.
+
+Recordings are shared on this PC across events. The link checkbox, selected manual anthem and volume are session controls. Audio files are not embedded in tournament exports or event-history files. To move your overrides to another PC, copy the `anthems` folder into that PC's Judo Ceremony data directory. A `--data-dir` rehearsal has its own imported library.
+
+The application makes no network requests for playback. A country outside the included library shows **No recording available** and supports importing a preferred version. Coverage and source review are documented in `docs/ANTHEM-LIBRARY.md`.
+
+
+### Anthem testing panel
+
+Open **4 Anthem testing** to browse all 255 country/delegation entries independently of the loaded ceremony. Search by three-letter code or country name, then filter **All countries**, **Available**, **Missing** or **Needs attention**. The table distinguishes bundled recordings from local imports. Failed recordings are marked Needs attention when tested; Refresh reloads current file availability.
+
+Select a row to see its flag and load the recording without autoplay. Use the panel's own **Play / Resume, Pause, Stop and Restart**, seek slider, elapsed time and volume to listen to any part of the track. **Refresh** discovers newly imported or replaced files. Missing recordings can be imported on Ceremony display and then refreshed here.
+
+The test player does not change medal countries, flag positions, the selected ceremony anthem, link preferences or the ceremony volume. Test audio stops when leaving this tab or starting ceremony playback. Listening is blocked while ceremony audio is playing or paused, or while a flag rise is running or paused. Browsing remains available. Space operates the focused preview control; the function keys remain ceremony shortcuts.
 
 ## Shortcuts
 
@@ -269,9 +370,9 @@ If the current autosave cannot be read, the original is preserved in an `.invali
 
 ### File compatibility
 
-Version 0.9 writes **schema 4** to preserve independent staff/audience preferences and per-category results. Earlier app versions reject these files instead of silently dropping settings.
+Version 0.11 writes **schema 5** to preserve country filters, competition participant lists, independent staff/audience preferences and per-category results. Versions before 0.11 reject these files instead of silently dropping settings.
 
-Schema 1, 2 and 3 files still open. Their saved podium is preserved as a category, and older shared visibility choices are copied to both outputs before becoming independent.
+Schema 1, 2, 3 and 4 files still open. Country filters default to Worldwide. Their saved podium is preserved as a category, and older shared visibility choices are copied to both outputs before becoming independent.
 
 ## Flag audit
 
@@ -290,7 +391,7 @@ The interface identifies selections outside the references for organizer review.
 
 The **16-page searchable PDF** includes a differences table with separate flag images, selectable text and the complete comparison sheets. Use **Ctrl+F** to find country names, codes or comparison results.
 
-The PDF describes the **0.7 flag audit**; the artwork is unchanged in 0.9. Its software-test count belongs to that earlier release. **Version 0.9 passed 216 software checks**, plus native launcher, fresh-start, migration, app-icon and all 442 reference-image hash checks.
+The PDF describes the **0.7 flag audit**; the artwork is unchanged in 0.11. Its software-test count belongs to that earlier release. **Version 0.11 passed 356 software checks**, plus native launcher, fresh-start, migration, app-icon and all 442 reference-image hash checks.
 
 Individual flag filenames use a three-letter code and full name, for example `TJK - Tajikistan.png`. The standalone archive contains **255 horizontal PNGs** and **221 vertical reference designs**. Source artwork resolution limits sharpness when enlarged; check the actual audience screen at event distance.
 
@@ -306,8 +407,8 @@ Individual flag filenames use a three-letter code and full name, for example `TJ
 | An audience change is missing from Copy image | Use Image visibility on Preparation for staff-image contents. |
 | The second monitor is missing | Check Windows Extend mode, the HDMI connection and the monitor's power; then refresh the display list. |
 | The restored screen is not moving | Blackout pauses playback. Press Play / Resume after restoring the picture. |
-| An older app rejects the event file | Open schema 4 files with version 0.9 or a compatible newer build. |
-| There is no anthem sound | Audio playback is not included; this version uses a timed flag animation. |
+| An older app rejects the event file | Open schema 5 files with version 0.11 or a compatible newer build. |
+| There is no anthem sound | Check the selected recording, volume and Windows default audio output; use Test sound. A missing track needs an imported MP3/WAV. |
 
 Before live use, rehearse the approved podium, both flag orientations, the visibility choices, HDMI resolution/scaling and reconnection, and pasting the staff image into the chosen Windows application.
 
