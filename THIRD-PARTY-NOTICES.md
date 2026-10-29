@@ -16,10 +16,26 @@ Source page numbers, horizontal and vertical asset hashes, and 50 entries outsid
 
 Country names come from the flag catalog, with selected English display-name adjustments. IOC and ISO mappings are imported from [datasets/country-codes](https://github.com/datasets/country-codes). The upstream data package supplies its licensing and source details. Country data is bundled in `Assets/countries.json`.
 
-## Category presets
+## Continental-union membership and competition countries
+
+Version 0.11 bundles a country-to-union snapshot from the official [IJF federation directory](https://www.ijf.org/countries), checked on 28 October 2026. `Assets/country-regions.json` records the five source URLs, source-page SHA-256 values, catalog identities and IJF code aliases. Other / unlisted is the remainder of this app's catalog, not a list of IJF membership. The data is used as a selection aid and does not establish competition eligibility.
+
+When requested by the operator, the competition importer reads country codes and the title of the public IJF Nations page. It does not import athlete details, sign in or modify the IJF service. Imported country lists remain local to the saved event. See `docs/RELEASE-0.11.md` for sources, snapshot behavior and unmatched codes.
+
+## Category definitions
 
 Senior, junior, cadet and veterans weight-category definitions are checked against the [IJF Sport and Organisation Rules, 14 August 2026](https://www.ijf.org/ijf/documents/26), sections 2.2.1 and A1.4–A1.5. Veterans divisions M1–M9 and F1–F9 are included. Masters, open, and team labels are editable convenience presets. The medal order matches section 8.10 for a standard gold/silver/two-bronze ceremony. Organizers can adjust the catalog for their event; no federation endorsement is implied.
 
-## Microsoft .NET
+## Anthem recordings
+
+The 0.10 offline library includes selected instrumental U.S. Navy Band performances documented on individual Wikimedia Commons file pages. Only sources whose individual file metadata identifies a public-domain Navy performance are selected. `Assets/Anthems/catalog.json` retains each country code, original file/page, performer, source license description and URL, audio URL, retrieval date and SHA-256. Some files use Commons' MP3 derivative; others are converted from the original using FFmpeg/libmp3lame at 192 kbit/s, without trimming or musical edits. Where a local conversion is made, the original file hash is also retained. For remaining tracks unavailable from the media host, the public-domain `open-assets-hub/national-anthems` mirror is used only when its original-file provenance matches the reviewed Commons file identity; `MirrorUrl` and `Acquisition` identify these files. The USA recording uses the original Navy source preserved by Internet Archive and linked on its Commons page.
+
+The original file pages describe the performance and composition rights and their jurisdictions. This source metadata is retained as provenance, rather than a claim that every recording has been approved by IJF or the event organiser. Coverage, deliberate omissions and corrected country mappings are listed in `docs/ANTHEM-LIBRARY.md`. Organisers can replace any recording with their preferred MP3/WAV. Locally imported recordings remain the organiser's materials and are not uploaded or included in tournament exports.
+
+Country candidates were discovered with the `open-assets-hub/national-anthems` index, but its country mappings are not accepted without review. The application uses an explicit reviewed mapping in `scripts/anthem-sources.json`. Incorrect USA/Hungary, Oman/Romania and Dominica/Dominican Republic mappings were corrected before inclusion. The UWW download pack is not bundled.
+
+FFmpeg and imageio-ffmpeg are development-only conversion tools and are not shipped with the Windows application. Playback uses Windows WPF MediaPlayer and requires no downloaded codec library.
+
+## Microsoft .NET runtime
 
 Self-contained builds include Microsoft .NET and WPF components. Their license and third-party notices are included in the distribution when supplied by the .NET publish tooling. See [dotnet/runtime](https://github.com/dotnet/runtime) and [dotnet/wpf](https://github.com/dotnet/wpf).
