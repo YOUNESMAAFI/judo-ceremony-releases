@@ -10,18 +10,18 @@
 </p>
 
 <p align="center">
-  <img alt="Version 0.14.1 Preview" src="https://img.shields.io/badge/version-0.14.1_Preview-C9A65A">
+  <img alt="Version 0.15.0 Preview" src="https://img.shields.io/badge/version-0.15.0_Preview-C9A65A">
   <img alt="Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-132047">
   <img alt="Offline" src="https://img.shields.io/badge/operation-offline-147D73">
-  <img alt="477 software checks passed" src="https://img.shields.io/badge/software_checks-477_passed-147D73">
+  <img alt="511 software checks passed" src="https://img.shields.io/badge/software_checks-511_passed-147D73">
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/JudoCeremony-0.14.1-win-x64.zip"><strong>Download for Windows</strong></a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/JudoCeremony-0.15-win-x64.zip"><strong>Download for Windows</strong></a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.14.1">Release notes &amp; downloads</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.15.0">Release notes &amp; downloads</a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
 </p>
 
 ---
@@ -32,6 +32,8 @@ Judo Ceremony Desk gives the operator a preparation workspace and a separate cer
 
 | Capability | What you can do |
 | --- | --- |
+| Ceremony queue | Set the order for each day, load the next podium and mark ceremonies finished. |
+| Version checks | See the installed version and check for a newer published Windows build. |
 | Final block | Save known gold and bronze matchups before medals exist, then refresh published results. |
 | Portable backup | Move an event, embedded branding and imported recordings to another PC in one ZIP. |
 | Event readiness | Check participant flag references, anthem files, preparation and audience display status. |
@@ -47,7 +49,7 @@ Judo Ceremony Desk gives the operator a preparation workspace and a separate cer
 | Anthem playback | Play local instrumental recordings independently or link them to flag controls. |
 | Offline use | Use bundled flag artwork and the included Windows runtime without an internet connection. |
 
-**Version 0.14.1 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Offline anthem playback is included, with separate controls and optional linking to flags.
+**Version 0.15.0 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Offline anthem playback is included, with separate controls and optional linking to flags.
 
 ## Contents
 
@@ -59,20 +61,20 @@ Download the Windows ZIP below, extract the entire folder and open `JudoCeremony
 
 | File | Use |
 | --- | --- |
-| [JudoCeremony-0.14.1-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/JudoCeremony-0.14.1-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
-| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
-| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
-| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
-| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/README.md) | A downloadable copy of this guide. |
-| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/RELEASE-0.14.1-checks.txt) | Confirmation of the 477 passing software checks. |
-| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.14.1/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
+| [JudoCeremony-0.15-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/JudoCeremony-0.15-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
+| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
+| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
+| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
+| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/README.md) | A downloadable copy of this guide. |
+| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/RELEASE-0.15-checks.txt) | Confirmation of the 511 passing software checks. |
+| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.15.0/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
 
 **Platform:** Windows x64. Windows 11 x64 is the development and test platform. The application ZIP includes the .NET runtime; a separate .NET installation is not required for normal use.
 
 To check a downloaded file in PowerShell, run the command below and compare its hash with the matching entry in `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.14.1-win-x64.zip
+Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.15-win-x64.zip
 ```
 
 ## Quick start
@@ -145,6 +147,26 @@ Use **Refresh results**, or check **Refresh every 30 seconds while this tab is o
 
 Select a readable published category, review any unusual layout, and click **Prepare selected podium**. This fills Preparation. Load the prepared ceremony to the audience when ready. Unsupported draw formats or missing country codes require review; countries and medals are never guessed. Saved plans work offline; importing and refreshing require internet. See [full operation, limits and compatibility](docs/RELEASE-0.14.md).
 
+## Run today's ceremony queue
+
+In **6 Final block**, choose **Today** or a dated day, then **Ceremony queue**. **Add this day** includes its scheduled categories; **Add preparation** adds a manually prepared podium. Use **Move up**, **Move down** and **Remove** to arrange the order. Adding a day twice does not duplicate it.
+
+![Ceremony queue using illustrative rehearsal results](images/ceremony-queue.png)
+
+The medal table previews the selected podium. **Load selected** loads it without autoplay. **Load next →** loads the first unfinished entry in the selected day's order; it waits if that entry still needs results or review. Press **Play** on Ceremony display when ready. After flags have finished and the anthem is stopped, return to the queue and **Mark finished**.
+
+Statuses include Waiting, Ready, Review layout, Loaded, Playing, Paused, Awaiting finish and Finished. Imported unusual layouts require review before loading; no-gold podiums select no winner anthem. Active flags or ceremony audio block loading another queued podium. Reordering does not alter the loaded countries. Finished entries retain the countries actually presented. Queue order and completion are saved with the event and portable backups.
+
+## Installed version and updates
+
+The title bar and **v0.15.0 · Updates** button identify the running build. Open the version window and choose **Check for updates**. It reads published Windows releases, including previews, and shows a newer version when available. Drafts and unrelated downloads are ignored.
+
+![Update check captured before publication of this release](images/version-updates.png)
+
+**Download newer version** opens the official release page in your browser. Close the older app, extract the new Windows ZIP and open its EXE. The check is manual, requires internet and does not install software. A failed check reports unavailable and retains its last successful check time. The window can remain open while you use the operator desk.
+
+See [complete operation, limits and compatibility](docs/RELEASE-0.15.md).
+
 ## Portable event backup
 
 ![Portable event backup preview](images/portable-backup.png)
@@ -162,7 +184,7 @@ The manifest records the size and SHA-256 of the event and each included recordi
 
 ## Restore on another PC
 
-1. Install or extract Judo Ceremony Desk **0.14.1 or newer** on the other Windows PC.
+1. Install or extract Judo Ceremony Desk **0.15 or newer** on the other Windows PC.
 2. Select **Event backup… → Restore backup → Choose backup ZIP…**.
 3. Review the event, saved-category count and included recordings.
 4. Leave **Replace matching local recordings with backup versions** unchecked to keep existing local overrides. Identical recordings are kept automatically. If replacement is selected, it changes the shared recording for that country across events on that PC; stop the anthem and reset an active flag rise first.
@@ -178,7 +200,7 @@ Backups and expanded content are limited to **2 GB**, event JSON to **25 MB**, a
 
 An interrupted or failed export keeps any existing destination ZIP. A normal restore failure rolls back recording changes, the previous session and history index, and removes its partial new event. The source backup ZIP is never modified. If an external disk/permission problem also prevents rollback, the error identifies retained recovery copies rather than deleting them.
 
-Backups use **backup format 1** with an embedded **schema 6** event. Use 0.14.1 or newer to retain the day and fetch metadata when restoring and resaving a new backup. Older 0.13 backups open in 0.14, and the saved final-block plan is included. Ordinary Open/Save tournament files remain available and do not contain audio files.
+Backups use **backup format 1** with an embedded **schema 7** event. Use 0.15 or newer to retain the queue, completed podiums and day metadata when restoring and resaving a new backup. Earlier supported backups open in 0.15. Ordinary Open/Save tournament files remain available and do not contain audio files.
 
 ## Validation
 
@@ -225,7 +247,7 @@ Results require internet access to download. Applied countries, medals and saved
 
 ## Compatibility and verification
 
-Version 0.14 writes **schema 6** to retain final-block plans. Files from schema 1–5 still open; earlier app versions reject schema 6 exports. No new personal or athlete data is stored by medal import: the app reads category, place and delegation facts.
+Version 0.15 writes **schema 7** to retain ceremony order and completed podiums alongside final-block plans. Files from schema 1–6 still open; earlier app versions reject schema 7 exports. No new personal or athlete data is stored by medal import: the app reads category, place and delegation facts.
 
 Verification includes recorded public IJF result facts and structure, real live result import, aliases, same-country medals, both bronze entries, no-gold/two-silver and short podiums, missing/unknown/conflicting results, rejected links/redirects, save/reopen/category isolation, preview Apply/Cancel, readiness file tampering and preservation of loaded flags/audio. The recorded fixture contains 14 completed Dushanbe 2026 individual categories. Country, flag and anthem assets are unchanged from 0.11.
 
@@ -275,7 +297,7 @@ Importing requires internet access. Saved participation lists and continental fi
 
 Each event keeps its own region, participation restriction, selected countries, event details and import provenance. Importing details updates the current event; start **New event** first when importing a different tournament. The category presets can be replaced by the imported list while saved category results, the selected category, entered medals and the loaded audience ceremony remain intact. Categories missing from the overview are kept as they are. Review the suggested category group before saving; Senior is the default unless the title identifies Junior or Cadet. Categories within that event share the competition list. A new event starts Worldwide with no participants; reopening a historical event restores its own settings.
 
-Version 0.14 saves **schema 6** so older apps reject the new files instead of silently discarding final-block plans. Schema 1–5 files still open with an empty plan; schema 1–4 default to Worldwide with no participant restriction. Audio, independent image/audience controls, categories and existing results are retained. Close older versions before launching this build.
+Version 0.15 saves **schema 7** so older apps reject the new files instead of silently discarding final-block plans. Schema 1–6 files still open with an empty plan; schema 1–4 default to Worldwide with no participant restriction. Audio, independent image/audience controls, categories and existing results are retained. Close older versions before launching this build.
 
 
 ![Competition participant editor](images/competition-countries.png)
@@ -484,9 +506,9 @@ If the current autosave cannot be read, the original is preserved in an `.invali
 
 ### File compatibility
 
-Version 0.14 writes **schema 6** to preserve final-block plans alongside country filters, participant lists, independent visibility settings and per-category results. Earlier versions reject these files instead of silently dropping the plan.
+Version 0.15 writes **schema 7** to preserve ceremony order and completion alongside final-block plans, country filters, participant lists, independent visibility settings and per-category results. Earlier versions reject these files instead of silently dropping the plan.
 
-Use 0.14.1 or newer to retain optional day, timezone and fetch metadata. Schema 1, 2, 3, 4 and 5 files still open with an empty final-block plan. Schema 1–4 country filters default to Worldwide; schema 5 filters are retained. Their saved podium is preserved as a category, and older shared visibility choices are copied to both outputs before becoming independent.
+Use 0.15 or newer to retain optional day, timezone and fetch metadata. Schema 1–6 files still open with an empty queue. Schema 6 retains its final-block plan; schema 1–5 start with an empty plan. Schema 1–4 country filters default to Worldwide; schema 5–6 filters are retained. Their saved podium is preserved as a category, and older shared visibility choices are copied to both outputs before becoming independent.
 
 ## Flag audit
 
@@ -505,7 +527,7 @@ The interface identifies selections outside the references for organizer review.
 
 The **16-page searchable PDF** includes a differences table with separate flag images, selectable text and the complete comparison sheets. Use **Ctrl+F** to find country names, codes or comparison results.
 
-The PDF describes the **0.7 flag audit**; the artwork is unchanged in 0.14. Its software-test count belongs to that earlier release. **Version 0.14 passed 477 software checks**, plus native launcher, fresh-start, migration, app-icon and all 442 reference-image hash checks.
+The PDF describes the **0.7 flag audit**; the artwork is unchanged in 0.15. Its software-test count belongs to that earlier release. **Version 0.15 passed 511 software checks**, plus native launcher, fresh-start, migration, app-icon and all 442 reference-image hash checks.
 
 Individual flag filenames use a three-letter code and full name, for example `TJK - Tajikistan.png`. The standalone archive contains **255 horizontal PNGs** and **221 vertical reference designs**. Source artwork resolution limits sharpness when enlarged; check the actual audience screen at event distance.
 
@@ -521,7 +543,7 @@ Individual flag filenames use a three-letter code and full name, for example `TJ
 | An audience change is missing from Copy image | Use Image visibility on Preparation for staff-image contents. |
 | The second monitor is missing | Check Windows Extend mode, the HDMI connection and the monitor's power; then refresh the display list. |
 | The restored screen is not moving | Blackout pauses playback. Press Play / Resume after restoring the picture. |
-| An older app rejects the event file | Open schema 6 files with version 0.14 or newer; older event files still open in 0.14. |
+| An older app rejects the event file | Open schema 7 files with version 0.15 or newer; older event files still open in 0.15. |
 | Finals are known but no medals appear | Choose Load event & wait. Final block shows the matchups unranked until published medals can be prepared. |
 | There is no anthem sound | Check the selected recording, volume and Windows default audio output; use Test sound. A missing track needs an imported MP3/WAV. |
 
