@@ -283,7 +283,7 @@ Choose **Worldwide**, **AJU · Africa**, **JUA · Asia**, **EJU · Europe**, **O
 | PJC | 37 |
 | Other / unlisted | 50 |
 
-This uses judo membership rather than geographic guesses. Israel and Türkiye are included in EJU; Kazakhstan is included in JUA. IJF aliases SGP, NFI and MNP map to the app's existing SIN, NFK and NMI catalog identities. The app continues to display its existing three-letter codes and flag artwork. Membership does not establish eligibility for a particular event.
+This uses judo membership rather than geographic guesses. France and Türkiye are included in EJU; Kazakhstan is included in JUA. IJF aliases SGP, NFI and MNP map to the app's existing SIN, NFK and NMI catalog identities. The app continues to display its existing three-letter codes and flag artwork. Membership does not establish eligibility for a particular event.
 
 ## Competition country list
 
@@ -318,7 +318,7 @@ Version 0.19 continues to save **schema 8**. Version 0.16 and newer can read tha
 
 Open **7 Create social post**, immediately after Final block. The **Preparation → Social export…** shortcut also takes you there. Choose a day and category, then **Create / edit social post…**. The editor restores a remembered poster first, otherwise starts with available category medals. You can enter results before a podium is prepared.
 
-![Social editor with layout choices and the IJF link](images/social-editor.png)
+![Social editor with layout choices and the IJF link](images/social-demo-editor.png)
 
 1. Paste an IJF competition link and choose **Read IJF results**.
 2. Select a published category, then **Use selected results** to fill medal entries and available 5th/7th places. Review country codes, names and the source before exporting.
@@ -332,7 +332,7 @@ Open **7 Create social post**, immediately after Final block. The **Preparation 
 | Square post | 1080 × 1080 |
 | Story | 1080 × 1920 |
 
-![Example flag-grid portrait export](images/social-flag-grid.png)
+![Example flag-grid portrait export](images/social-demo-flag-grid.png)
 
 These images use illustrative rehearsal data. This version contains **no athlete photos**. Posters use horizontal flags and support shorter or no-gold/two-silver podiums. Unknown countries, conflicting top-eight copies and invalid rows require review. Fifth and seventh places never become ceremony medals.
 
