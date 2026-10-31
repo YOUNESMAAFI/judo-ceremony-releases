@@ -1,8 +1,8 @@
 # Judo Ceremony Desk — short demonstration
 
-Use the **0.21.1** build. The purpose of the demonstration is to show one clear route from competition data to staff preparation and the audience screen.
+Use the **0.21.4** build. The purpose of the demonstration is to show one clear route from competition data to staff preparation and the audience screen.
 
-1. **Connect and update.** Click Update event in the top bar. Enter the official IJF competition link once and select its category group. Point out the saved Last updated time and connection badge. Open Changes to review new medals and corrected athlete names. The same update feeds every workspace. Auto-refresh is optional: its checkbox, interval selector and countdown sit directly in the top bar and stay visible across tabs.
+1. **Connect and update.** Click Update event in the top bar. Enter the official IJF competition link once and select its category group. Point out the saved Last updated time and connection badge. Open Changes to review new medals and corrected athlete names. The same update feeds every workspace. Auto-refresh is optional: its checkbox, interval selector and countdown are in the top bar and at the top of Changes. Maximize to show the timer and update/connection status in one header row.
 2. **Choose today's podium.** Open Final block and select Today or the relevant competition day. Use Fetch category for a quick check of this category only, or Update event for the whole competition. Explain the colours: green means four usable medal entries; grey means partial or no results. Review the countries and athlete names before choosing Prepare selected podium.
 3. **Show the staff image.** Preparation displays the flag positions, event/category and optional result recap. Copy image can be pasted directly into the staff's chosen application. Medal countries can also be entered manually.
 4. **Run the ceremony.** Open Ceremony display, select the HDMI screen and load the prepared podium. Play, Pause, Restart and Black screen operate the loaded ceremony. An event update does not replace it. Athlete names stay off the audience screen.
