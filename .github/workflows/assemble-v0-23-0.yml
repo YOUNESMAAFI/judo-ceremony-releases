@@ -20,7 +20,7 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import os,json,re,subprocess,hashlib,pathlib,urllib.request
+          import os,json,re,subprocess,hashlib,pathlib,http.client,urllib.parse
           repo=os.environ['GITHUB_REPOSITORY']; tag=os.environ['RELEASE_TAG']
           manifest=os.environ['MANIFEST_NAME']; expected=os.environ['EXPECTED_SHA256']
           assert re.fullmatch(r'v[0-9]+\.[0-9]+\.[0-9]+',tag)
@@ -28,15 +28,22 @@ jobs:
           assert manifest==filename+'.parts.json'
           assert re.fullmatch('[a-f0-9]{64}',expected)
           def gh(*args): return subprocess.check_output(['gh',*args],text=True)
-          release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
+          endpoint='repos/'+repo+'/releases/433716500'
+          release=json.loads(gh('api',endpoint))
           assert release['draft'] and release['id']==433716500, 'Assembly is permitted only for the approved v0.23.0 draft.'
-          subprocess.run(['gh','release','download',tag,'--repo',repo,'--pattern',manifest,'--dir','parts'],check=True)
+          assets={a['name']:a for a in json.loads(gh('api',endpoint+'/assets?per_page=100'))}
+          pathlib.Path('parts').mkdir()
+          def download(name):
+              asset=assets[name]
+              with pathlib.Path('parts',name).open('wb') as output:
+                  subprocess.run(['gh','api','repos/'+repo+'/releases/assets/'+str(asset['id']),'-H','Accept: application/octet-stream'],stdout=output,check=True)
+          download(manifest)
           doc=json.loads(pathlib.Path('parts',manifest).read_text())
           assert doc['filename']==filename and doc['sha256']==expected and 1<=len(doc['parts'])<=128
           names=[p['name'] for p in doc['parts']]
           assert len(names)==len(set(names))
           assert all(re.fullmatch(re.escape(filename)+r'\.part-[0-9]{3}',p) for p in names)
-          subprocess.run(['gh','release','download',tag,'--repo',repo,'--pattern',filename+'.part-*','--dir','parts'],check=True)
+          for name in names: download(name)
           digest=hashlib.sha256(); total=0
           with open(filename,'wb') as output:
               for part in doc['parts']:
@@ -47,9 +54,24 @@ jobs:
                       while block:=stream.read(1024*1024):
                           output.write(block); digest.update(block); total+=len(block)
           assert digest.hexdigest()==expected and total==doc['bytes']
-          subprocess.run(['gh','release','upload',tag,filename,'--repo',repo,'--clobber'],check=True)
-          release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
-          asset=next(a for a in release['assets'] if a['name']==filename)
+          release=json.loads(gh('api',endpoint))
+          assert release['draft'] and release['id']==433716500
+          existing=next((a for a in release['assets'] if a['name']==filename),None)
+          if existing:
+              assert existing['digest']=='sha256:'+expected and existing['size']==total
+          else:
+              target=urllib.parse.urlparse(release['upload_url'].split('{')[0])
+              assert target.scheme=='https' and target.hostname=='uploads.github.com'
+              connection=http.client.HTTPSConnection(target.hostname,timeout=300)
+              connection.putrequest('POST',target.path+'?name='+urllib.parse.quote(filename))
+              connection.putheader('Authorization','Bearer '+os.environ['GH_TOKEN'])
+              connection.putheader('User-Agent','Judo-Release-Assembly')
+              connection.putheader('Content-Type','application/zip');connection.putheader('Content-Length',str(total));connection.endheaders()
+              with open(filename,'rb') as stream:
+                  while block:=stream.read(1024*1024): connection.send(block)
+              response=connection.getresponse(); result=json.loads(response.read());connection.close()
+              assert response.status==201, result.get('message','Upload failed')
+          asset=next(a for a in json.loads(gh('api',endpoint+'/assets?per_page=100')) if a['name']==filename)
           assert asset['digest']=='sha256:'+expected and asset['size']==total
           print('Assembled release ZIP matches all part hashes and the expected full SHA-256.')
           PY
