@@ -1,0 +1,55 @@
+name: Assemble release download
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: assemble-v0-23-0
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: v0.23.0
+      MANIFEST_NAME: JudoCeremony-0.23.0-win-x64.zip.parts.json
+      EXPECTED_SHA256: 5b18255715ff1333de22383c8c1fdc7aa379cec589ec2bcbd8a389bb0850309e
+    steps:
+      - name: Check draft, download verified parts and assemble ZIP
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os,json,re,subprocess,hashlib,pathlib,urllib.request
+          repo=os.environ['GITHUB_REPOSITORY']; tag=os.environ['RELEASE_TAG']
+          manifest=os.environ['MANIFEST_NAME']; expected=os.environ['EXPECTED_SHA256']
+          assert re.fullmatch(r'v[0-9]+\.[0-9]+\.[0-9]+',tag)
+          filename='JudoCeremony-'+tag[1:]+'-win-x64.zip'
+          assert manifest==filename+'.parts.json'
+          assert re.fullmatch('[a-f0-9]{64}',expected)
+          def gh(*args): return subprocess.check_output(['gh',*args],text=True)
+          release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
+          assert release['draft'] and release['id']==433716500, 'Assembly is permitted only for the approved v0.23.0 draft.'
+          subprocess.run(['gh','release','download',tag,'--repo',repo,'--pattern',manifest,'--dir','parts'],check=True)
+          doc=json.loads(pathlib.Path('parts',manifest).read_text())
+          assert doc['filename']==filename and doc['sha256']==expected and 1<=len(doc['parts'])<=128
+          names=[p['name'] for p in doc['parts']]
+          assert len(names)==len(set(names))
+          assert all(re.fullmatch(re.escape(filename)+r'\.part-[0-9]{3}',p) for p in names)
+          subprocess.run(['gh','release','download',tag,'--repo',repo,'--pattern',filename+'.part-*','--dir','parts'],check=True)
+          digest=hashlib.sha256(); total=0
+          with open(filename,'wb') as output:
+              for part in doc['parts']:
+                  path=pathlib.Path('parts',part['name'])
+                  assert path.stat().st_size==part['bytes']
+                  assert hashlib.file_digest(path.open('rb'),'sha256').hexdigest()==part['sha256']
+                  with path.open('rb') as stream:
+                      while block:=stream.read(1024*1024):
+                          output.write(block); digest.update(block); total+=len(block)
+          assert digest.hexdigest()==expected and total==doc['bytes']
+          subprocess.run(['gh','release','upload',tag,filename,'--repo',repo,'--clobber'],check=True)
+          release=json.loads(gh('api','repos/'+repo+'/releases/tags/'+tag))
+          asset=next(a for a in release['assets'] if a['name']==filename)
+          assert asset['digest']=='sha256:'+expected and asset['size']==total
+          print('Assembled release ZIP matches all part hashes and the expected full SHA-256.')
+          PY
