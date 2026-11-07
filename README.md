@@ -10,18 +10,18 @@
 </p>
 
 <p align="center">
-  <img alt="Version 0.23.1 Preview" src="https://img.shields.io/badge/version-0.23.1_Preview-C9A65A">
+  <img alt="Version 0.23.7 Preview" src="https://img.shields.io/badge/version-0.23.7_Preview-C9A65A">
   <img alt="Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-132047">
   <img alt="Offline" src="https://img.shields.io/badge/operation-offline-147D73">
   <img alt="Release checks passed" src="https://img.shields.io/badge/release_checks-passed-147D73">
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/JudoCeremony-0.23.1-win-x64.zip"><strong>Download for Windows</strong></a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/JudoCeremony-0.23.7-win-x64.zip"><strong>Download for Windows</strong></a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.23.1">Release notes &amp; downloads</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/tag/v0.23.7">Release notes &amp; downloads</a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
+  <a href="https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/Judo-Ceremony-0.7-Audit-Searchable.pdf">Searchable flag audit</a>
 </p>
 
 ---
@@ -47,7 +47,7 @@ Judo Ceremony Desk gives the operator four main workspaces and a separate audien
 | Portable backup | Move an event, embedded branding and imported recordings to another PC in one ZIP. |
 | Event readiness | Check participant flag references, anthem files, preparation and audience display status. |
 | IJF medal results | Review a published category in Final block, then prepare its podium. |
-| Staff images | Copy a complete image or save a **2400 × 1350 PNG**. |
+| Staff images | Choose **Screen (16:9), 2400 × 1350**, or **Square (1:1), 2400 × 2400**, then copy the image or save PNG. |
 | Audience display | Run the flag animation in a separate window on an HDMI screen. |
 | Independent controls | Choose which titles, labels, country names and tables appear in each output. |
 | Country selection | Search **255 catalog entries** using three-letter codes or country names. |
@@ -58,7 +58,7 @@ Judo Ceremony Desk gives the operator four main workspaces and a separate audien
 | Anthem playback | Play local instrumental recordings independently or link them to flag controls. |
 | Offline use | Use bundled flag artwork and the included Windows runtime without an internet connection. |
 
-**Version 0.23.1 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Offline anthem playback is included, with separate controls and optional linking to flags.
+**Version 0.23.7 is a preview for review and rehearsal.** Software checks and package checks pass; rehearse the actual event computer, HDMI screen and staff-image workflow before live use. Offline anthem playback is included, with separate controls and optional linking to flags.
 
 ## Contents
 
@@ -70,13 +70,13 @@ Download the Windows ZIP below, extract the entire folder and open `JudoCeremony
 
 | File | Use |
 | --- | --- |
-| [JudoCeremony-0.23.1-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/JudoCeremony-0.23.1-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
-| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
-| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
-| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
-| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/README.md) | A downloadable copy of the illustrated user guide. |
-| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/RELEASE-0.23.1-checks.txt) | Focused software checks and native-package verification; suites overlap. |
-| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.1/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
+| [JudoCeremony-0.23.7-win-x64.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/JudoCeremony-0.23.7-win-x64.zip) | Complete portable Windows application, runtime, assets, examples and documentation. |
+| [Flags-PNG.zip](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/Flags-PNG.zip) | Individual horizontal and reference-backed vertical flag PNGs. |
+| [Searchable audit PDF](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/Judo-Ceremony-0.7-Audit-Searchable.pdf) | The flag reference review, differences table and full visual comparisons. |
+| [Release notes](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/RELEASE-NOTES.md) | Changes, compatibility and validation for this release. |
+| [README.md](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/README.md) | A downloadable copy of the illustrated user guide. |
+| [Software check result](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/RELEASE-0.23.7-checks.txt) | Focused software checks and native-package verification; suites overlap. |
+| [SHA256SUMS.txt](https://github.com/YOUNESMAAFI/judo-ceremony-releases/releases/download/v0.23.7/SHA256SUMS.txt) | SHA-256 hashes for the release downloads. |
 
 **Platform:** Windows x64. Windows 11 x64 is the development and test platform. The application ZIP includes the .NET runtime; a separate .NET installation is not required for normal use.
 
@@ -85,7 +85,7 @@ Download the Windows ZIP below, extract the entire folder and open `JudoCeremony
 To check a downloaded file in PowerShell, run the command below and compare its hash with the matching entry in `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.23.1-win-x64.zip
+Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.23.7-win-x64.zip
 ```
 
 ## Quick start
@@ -94,7 +94,7 @@ Get-FileHash -Algorithm SHA256 .\JudoCeremony-0.23.1-win-x64.zip
 2. Close an older running copy, then open **JudoCeremony.exe**. No separate .NET installation is needed.
 3. Choose **+ New event**. Click **Load IJF calendar**, then search and filter past, current or upcoming competitions by year. Select a competition to fill its link, or paste an official IJF event link directly, then **Connect event**. **Copy selected link** copies the public event URL. For a local event, enter its name and choose **Create manual event**. Use **Update event** afterward to refresh the connected competition.
 4. In **Final block**, select **Today** or a dated day. Review a category's medals, then choose **Prepare selected podium**.
-5. On **Preparation**, check the flags and countries. Choose horizontal or vertical flags, set **Image visibility…**, then **Copy image** or **Save PNG** for staff.
+5. On **Preparation**, check the flags and countries. Choose horizontal or vertical flags, choose **Image ratio → Screen (16:9)** or **Square (1:1)**, set **Image visibility…**, then **Copy image** or **Save PNG** for staff.
 6. Connect the audience screen in Windows **Extend** mode. Open **Ceremony display**, select the monitor and click **Load prepared →**.
 7. Check audience visibility and raising duration, then **Play** when ready. Use **Create social post** to export results separately.
 
@@ -133,7 +133,7 @@ This workspace contains monitor selection, loading, playback, elapsed time, rais
 
 Known gold and bronze matchups remain unranked until medals are published. Undecided contestants show **TBD**. Select a published category, review any unusual layout and click **Prepare selected podium**. This fills Preparation; it never starts the audience ceremony.
 
-**Category results** and **Ceremony queue** are view tabs. Green means four usable medal entries, including a valid no-gold/two-silver case. Partial and empty categories are grey. Fifth and seventh places are optional for podium readiness; shorter approved podiums remain available.
+**Category results** and **Ceremony queue** are view tabs. Green means usable gold and silver results, or four usable medal entries including a valid no-gold/two-silver case. A gold-and-silver podium is ready even without bronze medals. Results awaiting the final and empty categories are grey. Fifth and seventh places are optional for podium readiness; shorter approved podiums remain available.
 
 ### Create social post
 
@@ -269,6 +269,12 @@ This is a rehearsal staff-image illustration with sample medal data. Names remai
 
 Staff instructions and the audience screen can show different information. Event text and artwork are shared; visibility is selected separately for each output.
 
+**Image ratio** above the staff preview offers **Screen (16:9)** and **Square (1:1)**. The preview, **Copy image** and **Save PNG** use the selected format: 2400 × 1350 or 2400 × 2400. Square images arrange the flags, titles, logos and table across the square canvas. Choose **Bottom centre** under **Image visibility… → Table position** to place a wide results table beneath the flags, as in a square results card. The event remembers the ratio; existing events default to Screen. The audience screen keeps its own screen layout.
+
+Square layouts centre a two-flag pair with a clear gap between the flags. A bottom results table follows the flag labels at a consistent distance, and the flags and table are balanced together within the square, including one- and two-medal categories.
+
+![Square staff export with separated flags and a compact results table](images/staff-square-spacing.png)
+
 | Output | Where to change it | What updates |
 | --- | --- | --- |
 | Staff image | **Preparation → Image visibility...** | The staff preview, **Copy image** and **Save PNG**. |
@@ -285,6 +291,7 @@ Both sets independently control:
 | Three-letter country codes | ✓ | ✓ |
 | Full country names | ✓ | ✓ |
 | Results table | ✓ | ✓ |
+| Table position: top right, bottom left or bottom centre | ✓ | ✓ |
 | Athlete names in the results table | ✓ | — |
 | Event hashtag | ✓ | ✓ |
 | Logos | ✓ | ✓ |
@@ -292,6 +299,8 @@ Both sets independently control:
 ![Independent staff-image visibility controls](images/image-visibility.png)
 
 Changes apply immediately to the corresponding output and save with the event. Audience visibility edits preserve countries, elapsed time, pause and blackout. Image visibility edits leave the audience unchanged.
+
+Use **Table position** to choose **Top right**, **Bottom left** or **Bottom centre** for the medal table and any enabled staff athlete names. The flags leave space above a bottom table. Centre placement also leaves room for the footer logo and hashtag. Both outputs remember their own position.
 
 Hiding flags also hides their attached labels and disables those label controls for that output. The results table is a separate option and uses three-letter codes independently of the labels under flags.
 
@@ -438,6 +447,8 @@ Ceremony shortcuts work with the operator or audience window in focus. They are 
 Open **Appearance...** beside the staff preview to configure the event artwork.
 
 - Choose **Guide blue**, **Blue gradient**, **Dark blue** or **White & blue**.
+- Select **Premium judo · Wide** or **Premium judo · Square** for the blue-and-gold throwing artwork. For a square staff export, also choose **Image ratio → Square (1:1)** above the staff preview. Artwork selections are embedded in the event file.
+- **Premium judo · Crimson** offers another square design with subtle throwing silhouettes, crimson-to-burgundy gradients and restrained gold accents.
 - Set a custom background color, or import a PNG, JPEG or BMP background.
 - Adjust background darkening for readable titles.
 - Add logos at the top-left, top-right and bottom-center. Logos keep their proportions and PNG transparency.
@@ -515,7 +526,7 @@ If the current autosave cannot be read, the original is preserved in an `.invali
 
 ### File compatibility
 
-Version 0.23.1 saves **event schema 9**, including the shared top-eight result snapshot and Last updated. Newly saved events need **0.20 or newer**. Schema 1–8 events still open with their existing migration defaults.
+Version 0.23.7 saves **event schema 9**, including the shared top-eight result snapshot and Last updated. Newly saved events need **0.20 or newer**. Schema 1–8 events still open with their existing migration defaults.
 
 Saved category countries, athlete names, output preferences, final-block plans, ceremony queue and completed podiums stay with the event. Athlete names remain available for preparation images and social posts; ceremony output always omits them.
 
@@ -543,13 +554,13 @@ Readiness does not start playback or change medal countries. Confirm event-appro
 
 ## Installed version and updates
 
-The title bar and **v0.23.1 · Updates** button identify the running build. Open the version window and choose **Check for updates**. It reads published Windows releases, including previews, and shows a newer version when available. Drafts and unrelated downloads are ignored.
+The title bar and **v0.23.7 · Updates** button identify the running build. Open the version window and choose **Check for updates**. It reads published Windows releases, including previews, and shows a newer version when available. Drafts and unrelated downloads are ignored.
 
-![Update dialog from v0.15; the same manual check is available in v0.23.1](images/version-updates.png)
+![Update dialog from v0.15; the same manual check is available in v0.23.7](images/version-updates.png)
 
 **Download newer version** opens the official release page in your browser. Close the older app, extract the new Windows ZIP and open its EXE. The check is manual, requires internet and does not install software. A failed check reports unavailable and retains its last successful check time. The window can remain open while you use the operator desk.
 
-See [the event-setup release notes](docs/RELEASE-0.23.1.md) and [country standings notes](docs/RELEASE-0.23.md).
+See [the event-setup release notes](docs/RELEASE-0.23.7.md) and [country standings notes](docs/RELEASE-0.23.md).
 
 ## Flag audit
 
@@ -568,17 +579,17 @@ The interface identifies selections outside the references for organizer review.
 
 The **16-page searchable PDF** includes a differences table with separate flag images, selectable text and the complete comparison sheets. Use **Ctrl+F** to find country names, codes or comparison results.
 
-The PDF describes the **0.7 flag audit**; its artwork is unchanged in 0.23.1. Its software-test count belongs to that earlier release. Current software and package checks are listed below.
+The PDF describes the **0.7 flag audit**; its artwork is unchanged in 0.23.7. Its software-test count belongs to that earlier release. Current software and package checks are listed below.
 
 Individual flag filenames use a three-letter code and full name, for example `TJK - Tajikistan.png`. The standalone archive contains **255 horizontal PNGs** and **221 vertical reference designs**. Source artwork resolution limits sharpness when enlarged; check the actual audience screen at event distance.
 
 ## Release validation
 
-The v0.23.1 build passed **16 event-creation checks** and **813 regression checks**, plus a live IJF calendar check (212 competitions, including seven without published dates). The existing event-workflow suite also passed 31 focused checks; these overlap the full regression suite. Native audio transport was rerun and all bundled recordings were matched by hash to the existing Windows decoder audit.
+The v0.23.7 build passed **40 staff-image checks** and **292 focused athlete, table-placement and related checks**; these suites overlap in their coverage. The square exports and actual Preparation UI were visually reviewed. Earlier builds in this release series also passed full regression runs: 847 checks for v0.23.4 and 859 for v0.23.5.
 
 The Windows package passed native launch, fresh start, event reopening, embedded icon, **442 reference-image hashes** and **146 anthem hashes**. The unchanged recordings match the existing successful Windows decoder audit. Physical HDMI and venue-speaker rehearsal remain manual.
 
-See the [current release notes](docs/RELEASE-0.23.md) and [short demonstration guide](docs/BOSS-DEMO.md).
+See the [current release notes](docs/RELEASE-NOTES-0.23.7.md) and [short demonstration guide](docs/BOSS-DEMO.md).
 
 ## Troubleshooting
 
@@ -595,7 +606,7 @@ See the [current release notes](docs/RELEASE-0.23.md) and [short demonstration g
 | An older app rejects the event file | Schema 9 needs 0.20 or newer. Format-2 social projects require 0.18 or newer. |
 | Finals are known but no medals appear | Use Update event. Final block shows matchups unranked until medals are published; Fetch category checks one category again. |
 | A social post is missing athlete rows | Use Update event or Fetch category. All eight appear when published; saved design settings are retained. |
-| I cannot see the timer | Open v0.23.1 and choose Changes: the timer is its first section. It is also in the header. Maximize for the single-row header. |
+| I cannot see the timer | Open v0.23.7 and choose Changes: the timer is its first section. It is also in the header. Maximize for the single-row header. |
 | The timer says Off | Connect an IJF event, then check Auto-refresh. It starts off each session. |
 | The timer is waiting for editing | Finish editing an event field and move focus out of it. Timer settings themselves do not block updates. |
 | Results looks unchanged | Category results is a view tab. Use Fetch category or Update event to request new information. |
@@ -612,25 +623,3 @@ Artwork and data sources are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTI
 ---
 
 <p align="center"><strong>Judo Ceremony Desk</strong><br>Offline preparation and ceremony display for judo event teams.</p>
-
-## Develop and verify
-
-Install the .NET 10 SDK for Windows, or use the project-local SDK in `.tools/dotnet` when present.
-
-```powershell
-.\scripts\build.ps1
-.\scripts\build.ps1 -Check
-.\scripts\build.ps1 -Publish
-.\scripts\build.ps1 -Publish -OutputDirectory 'dist\JudoCeremony-verified'
-.\scripts\run.ps1
-```
-
-Checks exercise state transitions, active/prepared isolation, country codes, every flag asset, saving/reopening, malformed data, both flag orientations, image rendering, and the real WPF board. Output images and the verification report are written to `artifacts/checks`. A real HDMI connection, mixed monitor scaling, cable disconnection, and pasting the clipboard image into event staff's chosen app still require a hardware rehearsal.
-
-The application has no third-party NuGet dependencies. Publishing self-contained requires Microsoft's runtime packs during the build. Manual preparation and playback work offline. IJF fetches and version checks require internet access.
-
-`scripts/fetch-assets.py` and `scripts/render-flags.cjs` are development-time asset import tools, not application requirements. All generated flags and country metadata are already included under `src/JudoCeremony.App/Assets`. See `THIRD-PARTY-NOTICES.md` for sources and presentation details.
-
-To repeat the vertical audit, download the cited IJF April 2026 PDF as `.tools/ijf-flag-manual-2026.pdf`, run `scripts/audit-vertical-flags.py`, visually review its comparison sheets, then run `scripts/import-ijf-vertical-flags.py`. These optional development tools use Pillow, pdfplumber, pypdf and pypdfium2. The checked-in reference manifest pins the source PDF and individual flag hashes; base-asset generation preserves audited overrides.
-
-Version 0.7 flag comparison: run `scripts/audit-excel-flags.py --workbook <path> --baseline-app --output artifacts/release-audit/before-flags`, then `scripts/import-audited-flags.py`, then rerun the Excel audit without `--baseline-app` into `artifacts/release-audit/after-flags`. The importer requires the manual audit artifacts from the preceding vertical audit. It pins both source hashes and never executes Excel macros. `scripts/create-release-audit.py` builds the handover report from these results and the latest checks. Reference coverage and remaining differences are documented in `docs/RELEASE-AUDIT.md`.

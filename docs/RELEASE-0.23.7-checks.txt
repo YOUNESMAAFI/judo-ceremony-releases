@@ -1,0 +1,24 @@
+Judo Ceremony Desk v0.23.7 Preview
+Prepared: 7 November 2026 (Africa/Lagos)
+
+Final staff-image suite: PASS, 40 checks.
+Final focused athlete/table/related suite: PASS, 292 checks.
+Suites overlap in coverage; these are separate runs, not a unique aggregate count.
+
+Square exports and Preparation UI: visually reviewed.
+Two-medal crimson spacing example: visually reviewed.
+Native Windows x64 package: PASS.
+Fresh-session startup, event reopening/autosave, clean shutdown and embedded icon: PASS.
+Event schema: 9.
+Reference flag images checked by hash: 442.
+Bundled anthem files checked by hash: 146.
+Initial cold-start timeout passed on retry.
+
+Earlier regression evidence in this release series:
+v0.23.4 full run: PASS, 847 checks, including native audio decoding.
+v0.23.5 full run: PASS, 859 checks.
+These earlier full-run counts are not from the final v0.23.7 build.
+
+Compilation and self-contained publish: PASS.
+NuGet advisory metadata lookup unavailable (NU1900); compilation succeeded.
+Physical HDMI, mixed DPI, venue audio and clipboard-paste rehearsal: manual.
